@@ -19,7 +19,7 @@ namespace AndroidBorderCornerBug {
             border.Stroke = Colors.White;
             border.BackgroundColor = Colors.White;
             border.StrokeThickness = 9;
-            border.StrokeShape = new RoundRectangle() { CornerRadius = 10 };
+            border.StrokeShape = new RoundRectangle() { CornerRadius = 16 };
             mainAbs.Add(border);
 
             AbsoluteLayout borderAbs = new();
